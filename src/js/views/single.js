@@ -11,6 +11,7 @@ export const Single = props => {
 			<h1 className="display-4">This will show the demo element: {store.demo[params.theid].title}</h1>
 
 			<hr className="my-4" />
+			<button onClick= {() => actions.addFavorite}>Add to favorite</button>
 
 			<Link to="/">
 				<span className="btn btn-primary btn-lg" href="#" role="button">
